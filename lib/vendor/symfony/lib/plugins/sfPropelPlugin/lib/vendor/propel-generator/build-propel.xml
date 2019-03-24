@@ -2,7 +2,6 @@
 
   <!--
     Note - You should not have to edit this file.
-
     Instead, if calling build-propel.xml directly, edit the build.properties
     that is in the same directory. If calling build-propel.xml via another
     build file, you can also use the build.properties in the same directory,
@@ -240,9 +239,7 @@
         excludes="${propel.schema.create-db.excludes}"
       />
     </propel-data-model>
-
     <echo message="Executing the create-db.sql script ..."/>
-
     <sql
       autocommit="true"
       driver="${propel.database.driver}"
